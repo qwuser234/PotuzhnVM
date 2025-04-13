@@ -1,29 +1,32 @@
-*.annot
-*.cmo
-*.cma
-*.cmi
-*.a
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
 *.o
-*.cmx
-*.cmxs
-*.cmxa
+*.obj
 
-# ocamlbuild working directory
-_build/
+# Precompiled Headers
+*.gch
+*.pch
 
-# ocamlbuild targets
-*.byte
-*.native
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# oasis generated files
-setup.data
-setup.log
+# Fortran module files
+*.mod
+*.smod
 
-# Merlin configuring file for Vim and Emacs
-.merlin
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
-# Dune generated files
-*.install
-
-# Local OPAM switch
-_opam/
+# Executables
+*.exe
+*.out
+*.app
